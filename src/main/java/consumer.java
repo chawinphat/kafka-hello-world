@@ -1,9 +1,5 @@
-import org.apache.kafka.clients.KafkaClient;
 import org.apache.kafka.clients.consumer.*;
-import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
-import org.apache.kafka.common.serialization.StringSerializer;
-
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
